@@ -1,0 +1,2 @@
+In this case time complexity is O(log(n)). The algorithm is based of binary search, we transverse the natural's number list by using the binary search approach. The the search space is divided into two parts and we check each one if the mid point power of 2 is bigger or smaller than the given number.
+It has a space complexity of O(1) because it is independent of the input and only needs pointers to different array locations.

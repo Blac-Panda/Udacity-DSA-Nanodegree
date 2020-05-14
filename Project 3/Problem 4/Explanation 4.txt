@@ -1,0 +1,1 @@
+In this case the time complexity is precisely, O(n). The space complexity is O(1), excluding the input space, due to the non usage of auxiliary tables (only a few pointers).

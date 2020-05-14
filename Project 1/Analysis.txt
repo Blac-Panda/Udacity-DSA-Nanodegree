@@ -1,0 +1,23 @@
+Analysis
+
+Task 0:
+ - Time Complexity - O(1)
+ - This algorithm is constant time because has a running time independent of the input size
+
+Task 1:
+ - Time Complexity - O(n)
+
+Task 2:
+ - Time Complexity - O(n)
+
+Task 3:
+ - Time Complexity - O(nlog(n))
+ - This algorithm is superlinear time. It has two separate for-loops that are O(n) which results in O(2n); it has 
+   a sorting function which is 0(nlogn). 
+   Combining these two results = 0(2n + nlogn). Dropping non-dominant terms, this can be simplified to O(nlog(n))
+   
+Task 4:
+ - Time Complexity - O(n)
+ - This algorithm is superlinear time. It has two separate for-loops that are O(n) which results in O(2n); it has 
+   a sorting function which is 0(nlogn). 
+   Combining these two results = 0(2n + nlogn). Dropping non-dominant terms, this can be simplified to O(nlog(n))

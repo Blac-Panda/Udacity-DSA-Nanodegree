@@ -1,0 +1,5 @@
+The time complexity is O(log(n)) , because it's a only needs to search half of the array.
+We find a number in the middle of the array, then compare the middle value with our search value, then look up or down. The value found is returned equal to the target value. 
+If the target value is not in the array, it returns -1. 
+
+The space complexity is O(1), because it uses a list and an index to search answer, no extra space is required.

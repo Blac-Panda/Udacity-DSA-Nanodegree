@@ -1,0 +1,7 @@
+The user data is stored in a list, for a worst case scenario where the user does not exist we will have to search the entire length of the user list. This search takes O(n) time. Searching a group takes O(m) time. Where n is the number of users and m is the number of groups
+
+Since searching the list is recursive, If a user does not exist in any of the groups we have to search all their subgroups as well as their user list. This search takes O(n * m) time complexity and O(n * m) space complexity.
+
+		Information		Time Complexity		Space Complexity
+		list of users		  O(n)			   O(n)
+		list of groups		  O(m)			   O(m)

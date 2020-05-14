@@ -1,0 +1,3 @@
+The time complexity is O(n) , because we traverse all the numbers in the array
+
+The space complexity is O(1), since we have just a pair of pointers, it is independent from input size; 

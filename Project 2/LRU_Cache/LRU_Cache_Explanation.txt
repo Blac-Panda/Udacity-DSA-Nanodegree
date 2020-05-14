@@ -1,0 +1,9 @@
+With A Doubly linked list we can keep track of the previous node as well as the next node, and also append/prepend to the head and remove from the tail of the list. 
+
+Since the project requires a O(1) time complexity, we can't traverse the list because that will result in O(n).
+
+To solve this problem, we would implement a map for every item added to the cache. By saving a pointer to items in the cache, it will be easier to delete. In as much as the map give us a time complexity of O(1), it has a space complexity of O(n).
+
+Since data in the cache is added and retrieved using keys the Node used in the Doubly Linked List stores the data as a key-value pair. Storing the key in the Node, makes it easy to find the appropriate item in the map, when the least recently used item is to be deleted.
+
+

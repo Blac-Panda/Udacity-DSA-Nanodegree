@@ -1,0 +1,4 @@
+For the trie, time complexity of searching and inserting from a trie depends on the length of the path n that’s being searched for, inserted, making the runtime of the operations O(n).  routes are initialized with a RouteTrie, so to add a handler or lookup a route, we make use of familiar function of RouteTrie insert and find.
+
+The space complexity of a trie, the worst case, would be when we have a path (or paths), with no common folders between them, hence, a node for each path block (path between forward slashes). Resulting in a space complexity of
+O(n).

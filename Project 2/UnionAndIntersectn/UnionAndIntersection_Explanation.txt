@@ -1,0 +1,18 @@
+		time complexity		space complexity	Information
+Union		O(m+n)			O(m+n)			m is the first list, n is the second list
+Intersection	O(m+n)			O(s)			where s is the shortest list and the shortest list is a subset of the longest list
+
+Union Analysis.
+
+The Union is about combining both linkedlist into a new list
+
+The LinkedList being joined together are not modified. A new linkedList is created with the data from both list.
+
+A dictionary is used to keep track of duplicate data in the list. When data is added to the list, it's value is set to True, so that if it is encountered again, it will be skipped. Data does not exists in the list it's value is assumed to be false.
+
+Intersection Analysis.
+
+Data is stored in a linkedlist. A new linkedlist is created to store the data eact list have in common. A dictionary is created to keep track of common data and duplicates.Traverse the shortest list and the longer list. Then check for duplicates.
+
+
+

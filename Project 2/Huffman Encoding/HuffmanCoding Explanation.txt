@@ -1,0 +1,12 @@
+The time complexity of the Huffman algorithm is O(nlogn). 
+
+By using a heap to store the weight of each tree, each iteration requires O(log n) time to place in the priority queue, and there are O(n) iterations, one for each item.
+
+The space complexity is linear O(n) where n is the input size because it scales proportionally to the size of the input.
+
+References.
+Key Huffman Decoding Algorithm, adapted from
+https://riptutorial.com/algorithm/example/23995/huffman-coding
+
+
+

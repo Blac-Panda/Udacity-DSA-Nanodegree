@@ -1,0 +1,3 @@
+The time complexity is O(n) , because we have to traverse all the nodes in the tree to ensure full auto complete.
+
+The space complexity is O(1), because Because no new variables are created.

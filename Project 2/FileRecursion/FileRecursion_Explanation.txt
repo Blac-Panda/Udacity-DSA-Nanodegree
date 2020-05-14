@@ -1,0 +1,9 @@
+I made us of recursion to traverse a directory and its subdirectories when given its 
+path and append the files matching the given suffix to an array.
+
+The time complexity is O(n * m) where n is the number of 
+files in the current directory and m is the number of folders when we do recursion. 
+We have to go through each folder and every file in each folder.
+
+The space complexity is O(n * m) where n is the depth of 
+recursion and m is the space each recursive call function occupies. 
